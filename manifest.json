@@ -1,0 +1,64 @@
+{
+  "name": "Visit Saint Lucia",
+  "short_name": "visit.stlucia",
+  "description": "Your complete travel guide to Saint Lucia — Pitons, beaches, festivals, restaurants and everything you need to plan the perfect trip.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0D7377",
+  "background_color": "#FFFFFF",
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "The Pitons",
+      "short_name": "Pitons",
+      "description": "Hike guide for Gros Piton and Petit Piton",
+      "url": "/pitons.html",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Beaches",
+      "short_name": "Beaches",
+      "description": "Best beaches in Saint Lucia",
+      "url": "/beaches.html",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Practical Info",
+      "short_name": "Travel Tips",
+      "description": "Currency, plugs, visas and essential travel information",
+      "url": "/practical-info.html",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "assets/images/og-home.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "label": "Visit Saint Lucia — Home Page"
+    }
+  ]
+}

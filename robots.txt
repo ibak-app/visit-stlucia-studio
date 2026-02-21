@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow offline fallback — no indexing value
+Disallow: /offline.html
+
+# Disallow legal pages (not useful in search)
+Disallow: /privacy.html
+Disallow: /terms.html
+
+# Sitemap
+Sitemap: https://visit.stlucia.studio/sitemap.xml
